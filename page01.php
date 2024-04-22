@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#menu").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+<style>
+    .mossgalimg{
+    background-image: url(https://images.alphacoders.com/132/1326370.png);
+    background-size: cover; /* You can adjust this property to control how the image is displayed */
+    width: 1270px; /* Set the width of your div */
+    height: 700px;
+    text-align: left; /* Align text to the left */
+    display: flex; /* Center text horizontally */
+    align-items: center; /* Set the height of your div */
+  }
+  .menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    color: #f0f0f0;
+  }
+  .bar {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.admin{
+    position: absolute;
+    top: 15px;
+    right: 60px;
+    padding: 10px;
+    color: #f0f0f0;
+  }
+    .log{
+    position: absolute;
+    top: 15px;
+    right: 60px;
+    padding: 10px;
+    color: #f0f0f0;
+  }
+  #panel {
+  padding: 5px;
+  text-align: center;
+  background-color: #8b0000;
+  border: solid 1px #c3c3c3;
+    padding: 50px;
+  display: none;
+  width: 1500px; /* Set the width of your div */
+    height: 700px;
+}
+hr {
+  background-color: #fff; /* Background color for white line */
+  height: 0.1px; /* Height of the line, adjust as needed */
+  width: 30%; /* Width of the line, adjust as needed */
+  margin: 0 auto; /* Center the line horizontally on the page */
+}
+a{
+  font-family: Garamond, serif; color: white;"
+}
+
+
+</style>
+</head>
+<body>
+<div class="container-fluid border">
+<div id="panel" style="font-family: Garamond, serif; color: white;">
+  <br><br><br><br><a href="home.html">HOME</a><br><br><hr><br>
+  <a href="login.php">LOGIN</a> <br><br><hr><br>
+  <a href="adlog.php">ADMIN</a> <br><br><hr><br>
+
+</div>
+<div class="mossgalimg">
+  <div class="menu" id="menu">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    </div> 
+
+  <h1 style="font-family: 'Snell Roundhand', cursive; color: white; font-size: 100px;">
+    &nbsp;REVERIE<br><br></h1><br><br><h4 style="font-family: 'Snell Roundhand', cursive; color: white;">An Antiquarian Bookshop</h4>
+    <center style="font-family: Garamond, serif; color: white; position: absolute;bottom: 50px;left:600px; font-size: 50px;"></center>
+</div></div><br><br>
+<div class="container pt-3">
+<br>
+<h3 style="font-family: Garamond, serif; text-align: center;">"Within the pages of old books lie worlds waiting to be discovered."<br>
+AND WE ARE HERE TO BRING THAT TO YOU.</h3><br>
+<div class="row">
+<div class="col-lg-6" style="font-family: Garamond, serif;"><br><br><h3>REVERIE'S STORY</h3>
+  <br>
+  <p style="font-family: Garamond, serif; font-size: 20px;">
+    Antiquarian books are those that hold value due to their edition,
+     the year of printing, quality of printing, binding, illustrations or provenance.
+     This curated collection features books published between the 18th and 20th centuries, 
+     focused on a large and diverse array of topics.
+     This collection of books is a rich chronicle from the past and of the past, 
+     filled with excellent lithographs, maps and photographs that allow the reader 
+     to paint a picture of life in the centuries gone by.
+
+
+</p><br>
+<br>
+</div>
+<div class="col-lg-6"><img src="img/robert.jpg" style="height:600px; width:550px;">
+</div>
+</div>
+<br>
+<br><br><br>
+<h3 style="font-family: Garamond, serif;">VISIT US:</h3>
+<div class="row" style="font-family: Garamond, serif;">
+<div class="col-lg-6">
+  Reverie's unparalleled online experience is enriched by our physical gallery space in Chennai, India.
+   Located in the upscale Indiranagar neighbourhood, 
+   the gallery provides clients with a space to 
+   interact with our pieces and discover our world of 
+   artistic luxury in person. We invite you to visit us and get a
+    glimpse into our exquisite world.
+</div>
+<div class="col-lg-6">
+                                                            
+Tuesday - Thursday: 10:00 am - 5:00 pm<br>
+Friday - Saturday: 10:00 am - 5:00 pm <br>
+Off Hours Visits available by Appointment<br>
+Sunday - By Appointment or Chance<br>
+</div></div><br>
+
+<div class="row" style="font-family: Garamond, serif;">
+<div class="col-lg-6">
+<h3 style="font-family: Garamond, serif;">CONTACT US:</h3>
++91 78998 xxxxx | abc@example.com
+</div>
+</div>
+
+<br>
+<br>
+<br>
+</div>
+</body>
+</html>
